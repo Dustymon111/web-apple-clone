@@ -13,7 +13,6 @@ const Hero = () => {
             setVideoSrc(heroVideo)
         }
     }
-
     useEffect(() => {
         window.addEventListener('resize', handleVideoSrcSet);
 
